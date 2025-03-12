@@ -264,6 +264,7 @@ while True:
     print_colored_text(" ╚═════╝   ╚═════╝        ╚═╝  ╚═════╝╚═╝     ╚═╝     ╚═╝",  "#525252") #6
     print_colored_text(" - Telegram: @shohruhvich1","#c2c2be")
     print_colored_text(" - Instagram: @rahmonov_zarruxjon","#c2c2be")
+    print_colored_text(f" - Email: {email}","#c2c2be")
     print_colored_text(f" - Parol: {password}","#c2c2be")
     print(Fore.LIGHTWHITE_EX+" - Sizning real IP manzilingiz:",Fore.GREEN + get_real_ip())
     print_colored_text(f" - Mamlakat: {geo_data.get('country_name', 'NaN')}"+f", {geo_data.get('city','NaN')}", "#c2c2c2")
